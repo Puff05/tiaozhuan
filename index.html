@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+       .inner img {
+        position: fixed;
+        z-index: 0;
+       }
+       .inner ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        list-style-type: none;
+        top: 20px;
+        font-size: small;
+       }
+       ul a {
+        text-decoration: none;
+        color: #fff;
+       }
+       .inner li {
+        font-family: 'Courier New', Courier, monospace;
+       }
+       .inner li:last-child{
+        top: 20px;
+       }
+       .center {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+       }
+       .center p {
+		position: relative;
+		top:100px;
+        font-size: 80px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        color: #322A2A;
+       }
+		#login {
+			position: relative;
+			top: -5px;
+			border-radius: 3px;
+		}
+		.tubiao {
+			display: flex;
+			height: 400px;
+            align-items: center;
+		}
+		#bili {
+			width: 80px;
+			border-radius: 10px;
+			position: relative;
+			top: 90px;
+			left: 600px
+		}
+		#bili:hover {
+			border-radius: 12px;
+            cursor: pointer; 
+			box-shadow: 0 19px 39px 0 #999999;
+            transform: translate(0, -4px);
+		}
+		#dou {
+			width: 80px;
+			border-radius: 10px;
+			position: relative;
+			top: 90px;
+			left: 700px;
+		}
+		#dou:hover {
+			border-radius: 12px;
+            cursor: pointer; 
+			box-shadow: 0 19px 39px 0 #999999;
+            transform: translate(0, -4px);
+		}
+        #tao {
+            width: 65px;
+			border-radius: 10px;
+			position: relative;
+			top: 90px;
+			left: 800px
+        }
+		#tao:hover {
+			border-radius: 12px;
+            cursor: pointer; 
+			box-shadow: 0 19px 39px 0 #999999;
+            transform: translate(0, -4px);
+		}
+    </style>
+</head>
+<body>
+    <div class="inner">
+        <img src="goo/background.jpg" width="1720px" height="900px">
+        <ul>
+            &nbsp;&nbsp;
+            <li><a href="https://news.baidu.com/" target="_blank">新闻</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://www.hao123.com/?src=from_pc_logon" target="_blank">hao123</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://map.baidu.com/" target="_blank">地图</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://tieba.baidu.com/" target="_blank">贴吧</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://image.baidu.com/" target="_blank">图片</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://pan.baidu.com/" target="_blank">网盘</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://wenku.baidu.com/" target="_blank">文库</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="https://www.baidu.com/more/" target="_blank">更多</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#">设置</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#"><input type="submit" value="登录" id="login"></a></li>
+        </ul>
+        <div class="center">
+            <p>Baidu</p>
+        </div>
+        <div class="tubiao">
+			<a href="https://bilibili.com" target="_blank"><img src="goo/bili.png" id="bili"></a>
+			<a href="https://douyin.com" target="_blank"><img src="goo/douyin.png" id="dou"></a>
+			<a href="https://taobao.com" target="_blank"><img src="goo/taobao.png" id="tao"></a>
+		</div>
+			
+        </div>
+    </div>
+</body>
+</html>
